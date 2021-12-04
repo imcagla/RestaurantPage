@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:wght@200;400;500&family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <title>Lenson</title>
+    <style>
+        .border-40 {
+            border: 40px solid white;
+        }
+        body{
+            background-color: whitesmoke;
+            font-family: 'Montserrat', sans-serif;
+            overflow-x: hidden;
+        }
+        .start-70 {
+            left: 70%;
+        }
+        .top-20 {
+            top: 20%;
+        }
+        .z-top {
+            z-index: 99999;
+        }
+        .image-crop {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        }
+        .btn:hover {
+            background-color: white;
+            color: #0dcaf0 !important;
+            border-color: #0dcaf0;
+        }
+        .search-icon:hover {
+            color: #00597c !important;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent z-top">
+        <div class="container">
+            <i class="fas fa-cocktail text-warning fa-2x px-2"></i>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav offset-5">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+                </li>
+                <li>
+                    <a class="nav-link text-info search-icon" href=""><i class="fas fa-search"></i></a>
+                </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+    
+    <!-- Head -->
+    <div class="container-fluid py-5">
+        <div class="row mb-5 pb-5">
+            <div class="col-lg-4 offset-lg-2 order-lg-0 order-2 my-auto pt-5">
+                <header class="my-4 fw-bold display-5">Lorem ipsum dolor sit amet.</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quibusdam. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <button class="btn btn-info btn-md text-light fw-bold px-4 my-2 rounded-pill ">
+                    Lorem ipsum
+                </button>
+            </div>
+            <div class="col-6 d-lg-block d-none position-relative">
+                <img src="https://picsum.photos/id/108/900/700" class="rounded-pill ms-5 translate-middle start-50 top-20 position-absolute image-crop" alt="">
+            </div>
+            <div class="col text-center d-lg-none order-1">
+                <img src="https://picsum.photos/id/108/500/450" class="img-fluid rounded-pill" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="container-fluid py-5">
+        <div class="row my-5 pb-5">
+            <div class="col-lg-6 d-lg-block d-none mx-auto mx-md-0 text-start mb-5">
+                <div class="position-relative h-50 w-50">
+                    <img src="https://picsum.photos/id/22/300/300" class=" position-absolute translate-middle-x start-100 rounded-circle border-40 shadow" alt="">
+                    <img src="https://picsum.photos/id/52/300/300" class=" position-absolute translate-middle-x top-50 start-10 ms-5 rounded-circle border-40 shadow" alt="">
+                    <img src="https://picsum.photos/id/225/300/300" class=" position-absolute translate-middle-x top-100 start-100 rounded-circle border-40 shadow" alt="">
+                </div>
+            </div>
+            <div class="col d-lg-none text-center mt-5 pt-5">
+                <img src="https://picsum.photos/id/225/500/500" class="img-fluid rounded-circle border-40 shadow" alt="">
+            </div>
+            <div class="col-lg-4 my-auto">
+                <h3 class="my-4 fw-bold mt-5 pt-5">Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, deleniti.</p>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates explicabo quis reprehenderit quia, itaque, tempore optio iusto ipsa rem provident consectetur. Nostrum fuga minima perspiciatis molestias ab ducimus commodi iure?</p>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, officiis error! Veniam necessitatibus rerum tempora?</p>
+                <button class="btn btn-info btn-md text-light fw-bold px-4 my-2 rounded-pill ">
+                    Lorem ipsum
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card Block -->
+    <div class="container">
+        <div class="row pt-5 my-5 justify-content-center">
+            <div class="col-lg-9 col-md-12 mt-5 pt-5">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="pt-3">
+                    <a class="text-decoration-none text-dark pe-4" href="">Lorem.</a>
+                    <a class="text-decoration-none text-muted pe-4" href="">Autem!</a>
+                    <a class="text-decoration-none text-muted pe-4" href="">Dolore.</a>
+                    <a class="text-decoration-none text-muted pe-4" href="">Magnam.</a>
+                    <a class="text-decoration-none text-muted pe-4" href="">Impedit!</a></div>
+            </div>
+        </div>
+        <div class="row justify-content-center my-5 pb-5">
+            <div class="col-md-4 col-lg-3 mt-5 mt-md-0">
+                <div class="card pb-3 shadow border-0 text-center mt-5">
+                    <div class="position-absolute translate-middle start-50">
+                        <img src="https://picsum.photos/id/228/120/120" class="rounded-circle" alt="...">
+                    </div>
+                    <div class="card-body mt-5">
+                      <h5 class="card-title mt-4">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-white fw-bold rounded-pill px-4"><small>Go somewhere</small></a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 col-lg-3 mt-5">
+                <div class="card pb-3 shadow border-0 text-center mt-5">
+                    <div class="position-absolute translate-middle start-50">
+                        <img src="https://picsum.photos/id/248/120/120" class="rounded-circle" alt="...">
+                      </div>
+                    <div class="card-body mt-5">
+                      <h5 class="card-title mt-4">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-info text-light rounded-pill px-4 fw-bold"><small>Go somewhere</small></a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 col-lg-3 mt-5 mt-md-0">
+                <div class="card pb-3 shadow border-0 text-center mt-5">
+                    <div class="position-absolute translate-middle start-50">
+                        <img src="https://picsum.photos/id/25/120/120" class="rounded-circle" alt="...">
+                    </div>
+                    <div class="card-body mt-5">
+                      <h5 class="card-title mt-4">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-white fw-bold rounded-pill px-4"><small>Go somewhere</small></a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-white">
+        <div class="container text-center pt-3">
+            <p class="mb-1">&copy; 2021 Company Name</p>
+            <ul class="list-inline mt-2">
+                <li class="list-inline-item"><a class="text-decoration-none text-muted" href="#">Privacy</a></li>
+                <li class="list-inline-item"><a class="text-decoration-none text-muted" href="#">Terms</a></li>
+                <li class="list-inline-item"><a class="text-decoration-none text-muted" href="#">Support</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
